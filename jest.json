@@ -1,0 +1,9 @@
+{
+    "moduleFileExtensions": ["ts", "js", "json"],
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": ".(test|spec).(ts)$",
+    "testPathIgnorePatterns": ["/node_modules/", "/dist/", "/yarn-cache/"],
+    "testEnvironment": "node"
+}
